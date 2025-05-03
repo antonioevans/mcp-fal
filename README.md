@@ -1,5 +1,7 @@
 # fal.ai MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@antonioevans/mcp-fal)](https://smithery.ai/server/@antonioevans/mcp-fal)
+
 A Model Context Protocol (MCP) server for interacting with fal.ai models and services.
 
 ## Features
@@ -22,6 +24,15 @@ A Model Context Protocol (MCP) server for interacting with fal.ai models and ser
 
 ## Installation
 
+### Installing via Smithery
+
+To install mcp-fal for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@antonioevans/mcp-fal):
+
+```bash
+npx -y @smithery/cli install @antonioevans/mcp-fal --client claude
+```
+
+### Manual Installation
 1. Clone this repository:
 ```bash
 git clone https://github.com/am0y/mcp-fal.git
